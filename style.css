@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.bg-container {
+  background-color: #264653;
+}
+.custom-btn {
+  background-color: #e76f51;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+.img-featured {
+  width: 288px;
+  height: 243px;
+}
+.img-faq {
+  width: 400px;
+  height: 400px;
+}
+.img-greyscale {
+  width: 288px;
+  height: 243px;
+  filter: grayscale(1);
+}
+
+span {
+  color: #e76f51;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.faq {
+  text-decoration: none;
+}
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  color: rgb(228, 225, 225);
+  text-align: center;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform 0.2s; /* Animation */
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.3); /* (150% zoom)*/
+}
